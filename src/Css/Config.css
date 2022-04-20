@@ -1,0 +1,57 @@
+* {
+
+    --white: #ffffff;
+
+
+    /* ========= Theme 1 ========= */
+    --very-dark-desaturated-blue: #3a4764;    /*  Main background */
+    --very-dark-desaturated-blue-two: #232c43;   /*  toggle background, keypad background */
+    --very-dark-desaturated-blue-three: #182034;   /*  screen background */
+    --desaturated-dark-blue: #637097;   /*  key background */
+    --desaturated-dark-blue-two: #404e72;    /*  key shadow */
+    --red: #d03f2f;    /*  key background, toggle */
+    --dark-red: #93261a;    /*  key shadow */
+    --light-grayish-orange: #b4a597;    /*  key background */
+    --grayish-orange: #eae3dc;    /*  key shadow */
+    --dark-text: #444b5a;
+
+
+    /* ========= Theme 2 ========= */
+    --light-gray: #e6e6e6;    /*  Main background */
+    --grayish-red: #d1cccc;   /*  toggle background, keypad background */
+    --very-light-gray: #ededed;   /*  screen background */
+    --dark-moderate-cyan: #377f86;   /*  key background */
+    --very-dark-cyan: #1b5f65;   /*  key shadow */
+    --orange: #ca5502;    /*  key background, toggle */
+    --dark-orange: #893901;     /*  key shadow */
+    --light-grayish-yellow: #e5e4e1;    /*  key background */
+    --dark-grayish-orange: #a69d91;    /*  key shadow */
+    --very-dark-grayish-yellow: #35352c;
+
+
+
+    /* ========= Theme 3 ========= */
+    --very-dark-violet: #160628;    /*  Main background */
+    --very-dark-violet-two: #1d0934;    /*  toggle background, keypad background, screen background */
+    --dark-violet: #58077d;    /*  key background */
+    --dark-magenta: #bc15f4;    /*  key shadow */
+    --pure-cyan: #00e0d1;    /*  key background, toggle */
+    --soft-cyan: #6cf9f2;    /*  key shadow */
+    --very-dark-violet-three: #341c4f;    /*  key background */
+    --dark-magenta-two: #871c9c;    /*  key shadow */
+    --yellow: #ffe53d;
+    --very-dark-blue: #1b2428;
+
+
+
+    /* ========= Typography ========= */
+    --ff-main: 'League Spartan', sans-serif;
+    --fs-numbers: 32px;
+    --fw-bold: 700;
+}
+
+body {
+    font-family: var(--ff-main);
+    font-weight: var(--fw-bold);
+    letter-spacing: 1px;
+}
