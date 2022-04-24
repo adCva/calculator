@@ -1,0 +1,80 @@
+.first-theme {
+    background-color: var(--light-gray);
+    color: var(--very-dark-grayish-yellow);
+}
+
+.theme-buttons-first {
+    background-color: var(--dark-grayish-orange);
+}
+
+.active-button-first {
+    background-color: var(--orange);
+}
+
+.display-container-first {
+    background-color: var(--white);
+}
+
+.calc-buttons-container-first {
+    background-color: var(--dark-grayish-orange);
+}
+
+.normal-button-first {
+    background-color: var(--light-grayish-yellow);
+}
+
+
+
+
+.second-theme {
+    background-color: var(--very-dark-desaturated-blue);
+    color: var(--white);
+}
+
+.theme-buttons-second {
+    background-color: var(--very-dark-desaturated-blue-two);
+}
+
+.active-button-second {
+    background-color: var(--red);
+}
+
+.display-container-second {
+    background-color: var(--very-dark-desaturated-blue-three);
+}
+
+.calc-buttons-container-second {
+    background-color: var(--very-dark-desaturated-blue-two);
+}
+
+.normal-button-second {
+    background-color: var(----grayish-orange);
+}
+
+
+
+
+.third-theme {
+    background-color: var(--very-dark-violet);
+    color: var(--yellow);
+}
+
+.theme-buttons-third {
+    background-color: var(--very-dark-violet-two);
+}
+
+.active-button-third {
+    background-color: var(--pure-cyan);
+}
+
+.display-container-third {
+    background-color: var(--very-dark-violet-two);
+}
+
+.calc-buttons-container-third {
+    background-color: var(--very-dark-violet-two);
+}
+
+.normal-button-third {
+
+}

@@ -1,0 +1,32 @@
+.title-theme-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.theme-toggle {
+    display: flex;
+    align-items: flex-end;
+    gap: 1rem;
+}
+
+.theme-container {
+    width: 50px;
+}
+
+.theme-numbers {
+    display: flex;
+    justify-content: space-between;
+}
+
+.theme-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.theme-button {
+    height: 12px;
+    width: 12px;
+    background-color: transparent;
+    border-radius: 50%;
+}
