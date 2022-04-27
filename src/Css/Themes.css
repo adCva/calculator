@@ -1,10 +1,11 @@
 .first-theme {
     background-color: var(--light-gray);
     color: var(--very-dark-grayish-yellow);
+    transition: all 0.25s ease-in-out;
 }
 
 .theme-buttons-first {
-    background-color: var(--dark-grayish-orange);
+    background-color: var(--grayish-red);
 }
 
 .active-button-first {
@@ -12,15 +13,33 @@
 }
 
 .display-container-first {
-    background-color: var(--white);
+    background-color: var(--very-light-gray);
 }
 
 .calc-buttons-container-first {
-    background-color: var(--dark-grayish-orange);
+    background-color: var(--grayish-red);
 }
 
 .normal-button-first {
     background-color: var(--light-grayish-yellow);
+    box-shadow: 0px 4px var(--dark-grayish-orange);
+}
+
+.delete-button-first  {
+    background-color: var(--dark-moderate-cyan);
+    color: var(--white);
+    box-shadow: 0px 4px var(--very-dark-cyan);
+}
+
+.reset-button-first  {
+    background-color: var(--dark-moderate-cyan);
+    color: var(--white);
+    box-shadow: 0px 4px var(--very-dark-cyan);
+}
+.equal-button-first  {
+    background-color: var(--orange);
+    color: var(--white);
+    box-shadow: 0px 4px var(--dark-orange);
 }
 
 
@@ -29,6 +48,7 @@
 .second-theme {
     background-color: var(--very-dark-desaturated-blue);
     color: var(--white);
+    transition: all 0.25s ease-in-out;
 }
 
 .theme-buttons-second {
@@ -48,7 +68,26 @@
 }
 
 .normal-button-second {
-    background-color: var(----grayish-orange);
+    background-color: var(--grayish-orange);
+    box-shadow: 0px 4px var(--light-grayish-orange);
+}
+
+.delete-button-second  {
+    background-color: var(--desaturated-dark-blue);
+    color: var(--white);
+    box-shadow: 0px 4px var(--desaturated-dark-blue-two);
+}
+
+.reset-button-second {
+    background-color: var(--desaturated-dark-blue);
+    color: var(--white);
+    box-shadow: 0px 4px var(--desaturated-dark-blue-two);
+}
+
+.equal-button-second {
+    background-color: var(--red);
+    color: var(--white);
+    box-shadow: 0px 4px var(--dark-red);
 }
 
 
@@ -57,6 +96,7 @@
 .third-theme {
     background-color: var(--very-dark-violet);
     color: var(--yellow);
+    transition: all 0.25s ease-in-out;
 }
 
 .theme-buttons-third {
@@ -76,5 +116,25 @@
 }
 
 .normal-button-third {
+    background-color: var(--very-dark-violet-three);
+    color: var(--yellow);
+    box-shadow: 0px 4px var(--dark-magenta-two);
+}
 
+.delete-button-third  {
+    background-color: var(--dark-violet);
+    color: var(--white);
+    box-shadow: 0px 4px var(--dark-magenta);
+}
+
+.reset-button-third {
+    background-color: var(--dark-violet);
+    color: var(--white);
+    box-shadow: 0px 4px var(--dark-magenta);
+}
+
+.equal-button-third {
+    background-color: var(--pure-cyan);
+    color: var(--very-dark-blue);
+    box-shadow: 0px 4px var(--soft-cyan);
 }

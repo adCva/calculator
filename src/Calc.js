@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 function Calc() {
     const [ theme, setTheme ] = useState("first");
-    const [displayResault, setDisplayResault ] = useState("");
+    const [displayResault, setDisplayResault ] = useState("0");
 
     const calcResault = () => {
         setDisplayResault(eval(displayResault));

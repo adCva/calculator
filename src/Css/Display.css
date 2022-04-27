@@ -1,4 +1,12 @@
 .display-container {
-    padding: 2rem;
+    padding: 1.5rem;
     text-align: right;
+    border-radius: 10px;
+    transition: all 0.25s ease-in-out;
+}
+
+.display-container h1 {
+    font-size: 45px;
+    letter-spacing: 2px;
+    word-break: break-word;
 }
